@@ -21,7 +21,7 @@ class _AppState extends State<App> {
         appBar: AppBar(
           centerTitle: true,
           title: Image.asset(
-            'assets/pomo.png', // Troque por .svg usando flutter_svg se precisar
+            'Assets/pomo.png', // Troque por .svg usando flutter_svg se precisar
             height: 40,
             fit: BoxFit.contain,
           ),
@@ -40,15 +40,23 @@ class _AppState extends State<App> {
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.timer),
-              label: 'timer',
+              label: 'Pomodoro',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
               label: 'Home',
             ),
             BottomNavigationBarItem(
+              icon: Icon(Icons.task),
+              label: 'Tarefas',
+            ), 
+            BottomNavigationBarItem(
               icon: Icon(Icons.calendar_today),
               label: 'Calendário',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.settings),
+              label: 'Configurações',
             ),
           ],
         ),
