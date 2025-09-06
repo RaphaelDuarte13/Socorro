@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  print("cabaço");
-  print(teste);
-  print("Cachorro baitola");
 }
 
 class MyApp extends StatelessWidget {
