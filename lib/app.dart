@@ -30,7 +30,7 @@ class _AppState extends State<App> {
         appBar: AppBar(
           centerTitle: true,
           title: Image.asset(
-            'assets/pomo.png', // caminho igual ao pubspec.yaml
+            'RaphaelDuarte13/Socorro/assets/pomo.png', // caminho igual ao pubspec.yaml
             height: 40,
             fit: BoxFit.contain,
           ),
